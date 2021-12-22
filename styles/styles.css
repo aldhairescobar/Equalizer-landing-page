@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+/* === General Styles === */
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
