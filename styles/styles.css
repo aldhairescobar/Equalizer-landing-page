@@ -1,21 +1,92 @@
-*{
-    box-sizing: border-box;
-}
+*{ box-sizing: border-box; }
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 1rem;
+    line-height: 1.625rem;
     font-weight: 400;
     margin: 0;
+    background-color: #FCFAF9;
+    color: #191826;
 }
 
-/* === General Styles === */
+/* ==================
+    General styles
+===================== */
 
 img {
     max-width: 100%;
 }
 
+/* ==================
+    Typography
+===================== */
+
 h1,
 h2 {
     font-weight: 700;
+    margin-top: 0;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.25rem;
+}
+
+.subtitle {
+    margin-bottom: 4.25rem;
+}
+
+/* buttons */
+
+
+/* ==================
+    General layout
+===================== */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: minmax(1.5rem, 1fr) minmax(0px, 500px) minmax(1.5rem, 1fr);
+}
+
+
+/* ==================
+    Layout
+===================== */
+
+.patterns {
+    background-image: url(../assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: -250px;
+    background-position-x: 10px;
+}
+
+.header {
+    margin: 2.5rem 0 4rem 0;
+}
+
+.header,
+.hero,
+.footer-main,
+.social-list {
+    grid-column: 2 / -2;
+}
+
+.info {
+    background-image: url(../assets/bg-pattern-2.svg);
+    background-size: 280px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.illustration-app {
+    display: block;
+    width: 209px;
+    margin: 0 auto;
+}
+
+.info-card {
+    color: #FCFAF9;
 }
