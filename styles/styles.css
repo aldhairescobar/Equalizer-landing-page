@@ -38,8 +38,42 @@ h2 {
     margin-bottom: 10.375rem;
 }
 
+.info-card-title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.info-card-description {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 2.25rem;
+}
+
 /* buttons */
 
+.btn {
+    display: inline-block;
+    width: 100%;
+    padding: 0.875em 0;
+    border-radius: 12px;
+    color: #FCFAF9;
+    font-size: 1.125rem;
+    line-height: 2rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #191826;
+    margin-bottom: 1rem;
+}
+
+.btn-secondary {
+    background-color: #FCFAF9;
+    color: #191826;
+}
 
 /* ==================
     General layout
@@ -93,4 +127,7 @@ h2 {
 
 .info-card {
     color: #FCFAF9;
+    border-radius: 12px;
+    background-color: #FA7453;
+    padding: 3rem 2.25rem;
 }
