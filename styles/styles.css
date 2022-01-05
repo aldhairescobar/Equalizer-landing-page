@@ -35,7 +35,7 @@ h2 {
 }
 
 .subtitle {
-    margin-bottom: 4.25rem;
+    margin-bottom: 10.375rem;
 }
 
 /* buttons */
@@ -55,6 +55,8 @@ h2 {
     Layout
 ===================== */
 
+
+/* change name - - - - - - */
 .patterns {
     background-image: url(../assets/bg-main-mobile.png);
     background-repeat: no-repeat;
@@ -74,10 +76,11 @@ h2 {
 }
 
 .info {
+    border-radius: 12px;
     background-image: url(../assets/bg-pattern-2.svg);
     background-size: 280px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-color: black;
 }
 
@@ -85,6 +88,7 @@ h2 {
     display: block;
     width: 209px;
     margin: 0 auto;
+    transform: translateY(-6.125rem);
 }
 
 .info-card {
