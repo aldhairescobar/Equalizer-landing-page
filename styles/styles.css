@@ -18,6 +18,11 @@ img {
     max-width: 100%;
 }
 
+.logo,
+.footer-logo {
+    display: block;
+}
+
 /* ==================
     Typography
 ===================== */
@@ -48,6 +53,28 @@ h2 {
     font-size: 1.125rem;
     line-height: 1.75rem;
     margin-bottom: 2.25rem;
+}
+
+.info-card-pricing {
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+}
+
+.info-price {
+    font-size: 4.06rem;
+    line-height: 3.25rem;
+    font-weight: 700;
+    margin-right: 16px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+.footer-email {
+    font-weight: 700;
+    color: #191826;
+    text-decoration: none;
 }
 
 /* buttons */
@@ -118,12 +145,14 @@ h2 {
 }
 
 .info {
+    display: inline-block;
     border-radius: 12px;
     background-image: url(../assets/bg-pattern-2.svg);
     background-size: 280px;
     background-repeat: no-repeat;
     background-position: top;
     background-color: black;
+    height: 600px;
 }
 
 .illustration-app {
@@ -139,4 +168,48 @@ h2 {
     background-color: #FA7453;
     padding: 3rem 2.25rem;
     transform: translateY(-3rem);
+}
+
+.info-card-pricing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* == Footer == */
+
+.footer {
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
+
+.footer-main {
+    margin-bottom: 4rem;
+}
+
+.footer-logo {
+    margin-bottom: 2rem;
+}
+
+.social-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    max-width: 100px;
+    justify-content: space-between;
+}
+
+.social-item {
+
+}
+
+.social-link {
+
+}
+
+.social-icon {
+    display: block;
 }
