@@ -53,8 +53,11 @@ h2 {
 /* buttons */
 
 .btn {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    max-width: 296px;
     padding: 0.875em 0;
     border-radius: 12px;
     color: #FCFAF9;
@@ -73,6 +76,11 @@ h2 {
 .btn-secondary {
     background-color: #FCFAF9;
     color: #191826;
+}
+
+.apple-icon,
+.android-icon {
+    margin-right: 8px;
 }
 
 /* ==================
@@ -130,4 +138,5 @@ h2 {
     border-radius: 12px;
     background-color: #FA7453;
     padding: 3rem 2.25rem;
+    transform: translateY(-3rem);
 }
