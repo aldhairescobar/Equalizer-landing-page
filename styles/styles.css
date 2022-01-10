@@ -213,3 +213,8 @@ h2 {
 .social-icon {
     display: block;
 }
+
+.social-icon:hover > path,
+.social-icon:focus > path{
+    fill: #FA7453;
+}
