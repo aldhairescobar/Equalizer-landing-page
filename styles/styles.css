@@ -218,3 +218,24 @@ h2 {
 .social-icon:focus > path{
     fill: #FA7453;
 }
+
+
+@media (min-width: 768px) {
+    .main-grid {
+        grid-template-columns: minmax(2.5rem, 1fr) repeat(3, minmax(120px, 228px)) minmax(2.5rem, 1fr);
+    }
+    
+    .hero {
+        grid-column: 2 / span 2;
+    }
+
+    .hero-title {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .subtitle {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
