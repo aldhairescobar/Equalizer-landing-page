@@ -268,4 +268,39 @@ h2 {
     .footer-br {
         display: block;
     }
+
+
+    /* .info {
+        display: inline-block;
+        border-radius: 12px;
+        background-image: url(../assets/bg-pattern-2.svg);
+        background-size: 280px;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-color: black;
+        height: 600px;
+    } */
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        max-width: 696px;
+        margin: 0 auto;
+        background-position-y: -30px;
+    }
+
+    
+
+    .illustration-app {
+        margin: 0 auto 0 64px;
+        width: 270px;
+        /* transform: translateY(-6.125rem); */
+    }
+
+    .info-card {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: 58px;
+        transform: translateY(-24rem);
+    }
 }
