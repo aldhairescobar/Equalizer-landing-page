@@ -124,6 +124,9 @@ h2 {
     Layout
 ===================== */
 
+.hero-illustration {
+    display: none;
+}
 
 /* change name - - - - - - */
 .patterns {
@@ -226,6 +229,18 @@ h2 {
 
 @media (min-width: 768px) {
 
+    .hero-illustration {
+        display: block;
+        position: absolute;
+        width: 267px;
+        right: -36px;
+        top: -32px;
+    }
+
+    .header {
+        margin: 3.875rem 0 5.9375rem;
+    }
+
     /* change name - - - - - - */
     .patterns {
         background-image: url(../assets/bg-main-tablet.png);
@@ -245,11 +260,17 @@ h2 {
     .hero-title {
         font-size: 4rem;
         line-height: 4rem;
+        margin-bottom: 1.75rem;
     }
 
     .subtitle {
         font-size: 1.125rem;
         line-height: 1.75rem;
+        margin-bottom: 15.625rem;
+    }
+
+    .footer {
+        margin-top: 11.4375rem;
     }
 
     .footer-main {
@@ -269,17 +290,17 @@ h2 {
         display: block;
     }
 
-
-    /* .info {
+    .info {
         display: inline-block;
         border-radius: 12px;
         background-image: url(../assets/bg-pattern-2.svg);
         background-size: 280px;
         background-repeat: no-repeat;
         background-position: top;
-        background-color: black;
+        background-position-y: -30px;
+        background-position-x: 229px;
         height: 600px;
-    } */
+    }
 
     .info {
         display: flex;
@@ -289,18 +310,16 @@ h2 {
         background-position-y: -30px;
     }
 
-    
-
     .illustration-app {
         margin: 0 auto 0 64px;
         width: 270px;
-        /* transform: translateY(-6.125rem); */
+        transform: translateY(-8.75rem);
     }
 
     .info-card {
         max-width: 400px;
         margin-left: auto;
         margin-right: 58px;
-        transform: translateY(-24rem);
+        transform: translateY(-25.5rem);
     }
 }
