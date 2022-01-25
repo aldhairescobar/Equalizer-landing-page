@@ -323,3 +323,21 @@ h2 {
         transform: translateY(-25.5rem);
     }
 }
+
+@media (min-width: 1440px){
+
+
+    /* change name - - - - - - */
+    .patterns {
+        background-image: url(../assets/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position-y: -260px;
+        background-position-x: -260px;
+    }
+
+    .main-grid {
+        grid-template-columns: minmax(2.5rem, 1fr) repeat(4, minmax(260px, 260px)) minmax(2.5rem, 1fr);
+    }
+
+
+}
